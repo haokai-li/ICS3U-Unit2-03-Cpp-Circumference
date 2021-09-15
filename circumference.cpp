@@ -8,16 +8,16 @@
 
 int main() {
   // This function calculate circumference
-  int raidus;
+  int radius;
   const double TAU = 6.28;
   double circumference;
 
   // input
   std::cout << "enter radius of the circle(mm): " << std::endl;
-  std::cin >> raidus;
+  std::cin >> radius;
 
   // process
-  circumference = raidus * TAU;
+  circumference = radius * TAU;
 
   // putput
   std::cout << "" << std::endl;
